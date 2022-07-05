@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cb53f31e-8eba-4d86-941a-ee2da0391891" name="rs">
+        <fileTransfer rootFolder="/home/oleg419583/www" accessType="SFTP" host="ts.bigtows.org" port="22" sshConfigId="a3220dd4-531d-4f90-b930-ac0fdcddcee0" sshConfig="oleg419583@ts.bigtows.org:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

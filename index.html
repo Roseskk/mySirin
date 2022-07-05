@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Sirin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header__container">
+        <svg onclick="Open()" class="ipad hamburger" xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+            <rect width="27.1005" height="2" rx="1" fill="#1D88E6"/>
+            <rect id="ham2" y="7" width="27" height="2" rx="1" fill="#1D88E6"/>
+            <rect id="ham3"  y="14" width="27" height="2" rx="1" fill="#1D88E6"/>
+        </svg>
+        <div class="ipad flex-col">
+            <img class="ipad" src="img/mobile/sirin.svg"/>
+            <span class="header__subtitle">ОБРАЗЦОВЫЙ ХОРЕОГРАФИЧЕСКИЙ АНСАБЛЬ</span>
+        </div>
+        <img class="ipad" src="img/mobile/mobile-logo.png"/>
+        <img class="header__logo" src="img/FIRM.svg" />
+    </div>
+    <div class="mobile__menu__wrapper__wp">
+        <nav class="mobile__menu__wrapper">
+            <ul class="mobile__menu__list">
+                <li data-value="1 "class="mobile__menu__item"><a class="mobile__menu__link" href="#">Новости</a></li>
+                <li data-value="2" class="mobile__menu__item"><a class="mobile__menu__link" href="teachers.html">Преподаватели</a></li>
+                <li data-value="3" class="mobile__menu__item"><a class="mobile__menu__link" href="advantage.html">Напрваления</a></li>
+                <li data-value="4" class="mobile__menu__item"><a class="mobile__menu__link" href="#">Достижения</a></li>
+                <li data-value="5" class="mobile__menu__item"><a class="mobile__menu__link" target="_blank" href="https://docs.google.com/spreadsheets/d/19EQ1S-SoZ9tk2GAKtlyb60SiH9m6mh8YlRj-iQBg8kc/edit#gid=0">Расписание</a></li>
+                <li data-value="6" class="mobile__menu__item" onclick="scrl('contacts')"><a class="mobile__menu__link" href="#">Контакты</a></li>
+                <li data-value="7" class="mobile__menu__item" onclick="scrl('about')"><a class="mobile__menu__link" href="#">О нас</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__menu">
+        <ul class="header__menu__list">
+            <li class="header__menu__item">
+                <a class="header__item__link">Новости</a>
+            </li>
+            <li class="header__menu__item">
+                <a class="header__item__link" href="teachers.html" >Преподаватели</a>
+            </li>
+            <li class="header__menu__item" >
+                <a class="header__item__link" href="advantage.html" >Направления</a>
+            </li>
+            <li class="header__menu__item" >
+                <a class="header__item__link" href="#">Достижения</a>
+            </li>
+            <li class="header__menu__item">
+                <a class="header__item__link" target="_blank" href="https://docs.google.com/spreadsheets/d/19EQ1S-SoZ9tk2GAKtlyb60SiH9m6mh8YlRj-iQBg8kc/edit#gid=0">Расписание</a>
+            </li>
+            <li class="header__menu__item" onclick="scrl('contacts')">
+                <a class="header__item__link">Контакты</a>
+            </li>
+            <li class="header__menu__item" onclick="scrl('about')">
+                <a class="header__item__link">О нас</a>
+            </li>
+        </ul>
+    </div>
+    <div class="blue__line">
+
+    </div>
+    <div id="socials" class="fixed__socials">
+        <div class="fixed__socials__wrapper">
+            <div class="socials__flex">
+                <div class="fixed__socials__flex">
+
+                    <a class="socials__img__item" target="_blank" href="https://vk.com/sirin.moscow"><img  src="img/icons/vk-logo.svg"></a>
+                    <a class="socials__img__item" target="_blank" href="https://www.facebook.com/groups/320398285093190/about/"><img  src="img/icons/fb-logo.svg"></a>
+                    <a class="socials__img__item" target="_blank" href="https://t.me/we_are_sirin"><img  src="img/icons/tg-logo.svg"></a>
+                    <a class="socials__img__item" target="_blank" href="https://www.instagram.com/we_are_sirin/?hl=ru"><img  src="img/icons/inst-logo.svg"></a>
+                    <a class="socials__img__item" target="_blank" href="https://www.youtube.com/channel/UCjUK3OsSzJivb8LNTNFvYKQ"><img  src="img/icons/yt-logo.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topper__container">
+        <div class="topper__content_container">
+            <div>
+                <p  class="topper__content__style">
+                    Ансамбль является Лауреатом Международных и Всеросийских фестивалей.</br>
+                    У нас большая концертная и гастрольная деятельность.</br>
+                    Наши дети — это настоящие, состоявшиеся  артисты.
+                </p>
+            </div>
+            <div class="topper__button__container">
+                <a class="topper__button" onclick="scrl('next')">ПОДРОБНЕЕ</a>
+            </div>
+        </div>
+    </div>
+    <div id="next" class="pc description__container element-animation">
+        <div class="description__content">
+                <img class="description__image" src="./img/img2.png" />
+            <div class="description__content__style">
+                <span class="description__title">Ансамбль «Сирин»</span>
+                <p class="description__text">
+                    Образцовый хореографический ансамбль «Сирин» является Лауреатом Международных
+                    и Всеросийских фестивалей.
+                    У нас большая концертная и гастрольная деятельность.
+                    Наши выпускники,  являются  студентами  хореографических училищ :
+                    Школа-студия  при ГААНТ имени Игоря Моисеева, МОКИ, даже успели
+                    открыть  свои студии и успешно работают.</p>
+            </div>
+        </div>
+    </div>
+    <div  class="ipad__description description__container element-animation">
+        <div class="description__content">
+            <div class="description__content__style">
+                <div class="ipad__description__content">
+                    <span class="description__title">Ансамбль «Сирин»</span>
+                </div>
+                <div class="ipad__description__text">
+                    <p class="description__text">
+                        Образцовый хореографический ансамбль «Сирин» является Лауреатом Международных
+                        и Всеросийских фестивалей.
+                        У нас большая концертная и гастрольная деятельность.
+                        Наши выпускники,  являются  студентами  хореографических училищ :
+                        Школа-студия  при ГААНТ имени Игоря Моисеева, МОКИ, даже успели
+                        открыть  свои студии и успешно работают.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantage__container element-animation">
+        <div class="advantage__wrapper">
+            <div class="advantage__left__content">
+                <p class="advantage__left__text"><span class="light">Преимущества</span> занятий&nbsp;танцами</br> в <span class="light">нашем</span> ансамбле<span class="light">!</span></p>
+            </div>
+            <div class="advantage__right__container">
+                <div class="advantage__right__content">
+                    <ul class="advantage__list">
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/firstcard.svg"  />
+                            </div>
+                            <span class="advantage__text">изучение основ танцевальных знаний</span>
+                        </li>
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/secondcard.svg"  />
+                            </div>
+                            <span class="advantage__text">обучение пластике и выразительности</span>
+                        </li>
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/thirdcard.svg"  />
+                            </div>
+                            <span class="advantage__text">развитие выносливости и терпения</span>
+                        </li>
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/fourthcard.svg"  />
+                            </div>
+                            <span class="advantage__text">улучшение фигуры и осанки</span>
+                        </li>
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/fithcard.svg"  />
+                            </div>
+                            <span class="advantage__text">движения станут грациозными</span>
+                        </li>
+                        <li class="advantage__right__content__style">
+                            <div class="advantage__border">
+                                <img class="advantage__img" src="img/sixcard.svg"  />
+                            </div>
+                            <span class="advantage__text">соблюдение дисциплины</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about__container element-animation">
+        <h1 class="title">СИРИН ЭТО</h1>
+        <div>
+            <iframe width="100%" height="885px" src="https://www.youtube.com/embed/HKYSXbiOasI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="teachers" class="teachers__container">
+        <div class="teachers__title__container">
+            <span class="teachers__title">Руководство ансамбля</span>
+            <p class="teacher__subtitle">Каждый преподаватель - признаный эксперт в</br> своей области и талантливый педагог.</p>
+        </div>
+        <div class="blue__back">
+        </div>
+        <div  class="teachers__first__list">
+            <div onclick="Swipe(0)" data-value="0" class="teachers__first__item display" >
+                <img data-value="0" class="hide photos" src="img/Давыдова.png" />
+                <div data-value="0" class="teachers__first__content teachers__content">
+                    <div class="teacher__first__name">
+                        <span data-value="0" class="teachers__span">Давыдова Ирина Сергеевна</span>
+                        <ul data-value="0" class="teachers__card__reverse"></ul>
+                    </div>
+<!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+            <div onclick="Swipe(1)" data-value="1" class="teachers__second__item display" >
+                <img data-value="1" class="hide photos" src="img/Фокина.png" />
+                <div data-value="1" class="teachers__second__content teachers__content">
+                    <div class="teacher__second__name">
+                        <span data-value="1" class="teachers__span">Фокина Екатерина Сергеевна</span>
+                        <ul data-value="1" class="teachers__card__reverse"></ul>
+                    </div>
+                    <!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="teachers__second__list">
+            <div onclick="Swipe(2)" data-value="2" class="teachers__first__item display" >
+                <img data-value="2" class="hide photos" src="img/Давыдов.png" />
+                <div data-value="2" class="teachers__first__content teachers__content">
+                    <div class="teacher__first__name">
+                        <span data-value="2" class="teachers__span">Давыдов Артём Максимович</span>
+                        <ul data-value="2" class="teachers__card__reverse"></ul>
+                    </div>
+                    <!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+            <div onclick="Swipe(3)" data-value="3" class="teachers__second__item display" >
+                <img data-value="3" class="hide photos" src="img/Тереньтьева.png" />
+                <div data-value="3" class="teachers__second__content teachers__content" >
+                    <div class="teacher__second__name">
+                        <span data-value="3" class="teachers__span">Терентьева Валентина Валерьевна</span>
+                        <ul data-value="3" class="teachers__card__reverse"></ul>
+                    </div>
+<!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+            <div onclick="Swipe(4)" data-value="4" class="teachers__second__item display" >
+                <img  data-value="4" class="hide photos" src="img/Тихонов.png" />
+                <div data-value="4" class="teachers__second__content teachers__content">
+                    <div class="teacher__second__name">
+                        <span data-value="4" class="teachers__span">Тихонов Александр Александрович</span>
+                        <ul data-value="4" class="teachers__card__reverse"></ul>
+                    </div>
+<!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="teachers__first__list">
+            <div onclick="Swipe(5)" data-value="5" class="teachers__first__item display" >
+                <img data-value="5" class="hide photos" src="img/Брунова.png" />
+                <div data-value="5" class="teachers__first__content teachers__content">
+                    <div class="teacher__first__name">
+                        <span data-value="5" class="teachers__span">Брунова Полина Олеговна</span>
+                        <ul data-value="5" class="teachers__card__reverse"></ul>
+                    </div>
+<!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+            <div onclick="Swipe(6)" data-value="6" class="teachers__first__item display" >
+                <img data-value="6" class="hide photos" src="img/Автухова.png" />
+                <div data-value="6" class="teachers__first__content teachers__content">
+                    <div class="teacher__first__name">
+                        <span data-value="6" class="teachers__span">Автухова Татьяна Викторовна</span>
+                        <ul data-value="6" class="teachers__card__reverse"></ul>
+                    </div>
+<!--                    <a href="#"><div class="white__circle"></div></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="comments__sub">
+            <div class="comments__title__style">
+                <span class="comments__title">Что о нас говорят</span>
+            </div>
+            <ul class="comments__list">
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/dima.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Дмитрий Фатуев</span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                            <span class="comments__text__sub">
+                            Чем еще полезен коллектив нашей семье? Гастроли!
+                            Коллектив 2-3 раза в год выезжает с выступлениями по России
+                            и ближайшему зарубежью.
+
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/lena.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Елена Батманова</span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                            <span class="comments__text__sub">
+                        Вот уже четвёртый год с Вами. За это время мы очень сильно всех полюбили.
+                            С нетерпением ждём очередных занятий!
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/tanya.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Татьяна Гасаненко</span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                            <span class="comments__text__sub">
+                         Множество танцевальных, коллективов. Выбор большой.
+                            Однажды друзья пригласили на отчетный концерт СИРИН.
+                            Все мы влюбились и с нового учебного года в коллективе!
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/ivanIvanov.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Иван Иванов </span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                             <span class="comments__text__sub">
+                        Сирин для нас - это образ жизни. Ирина Сергеевна - справедливый и профессиональный учитель. Но в тоже время добрый.
+                        </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/EVal.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Екатерина Валерьевна</span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                            <span class="comments__text__sub">
+                        Ирина Сергеевна умудряется подарить прекрасный и незаменимый опыт своим старшим воспитанницам.
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="comments__item">
+                    <div class="comments__img__style"><img src="img/AA.png" class="comments__image"  /></div>
+                    <div class="comments__text">
+                        <div>
+                            <span class="comments__name">Александр Александров</span>
+                        </div>
+                        <div class="comments__text__sub__style">
+                            <span class="comments__text__sub">
+                         Александр Александров Выступлений на московских культурных городских площадках все и не вспомнишь – Дом Кино, Поклонная гора, Воробьёвы горы!
+                        </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="rules" class="rules__container">
+        <div class="rules__title__style">
+            <span>Так же в <span class="light">нашем</span> коллективе <span class="light">существует</span> ряд <span class="light">правил</span></span>
+        </div>
+        <div class="rules__right__style">
+            <div class="rules__right">
+                <div class="rules__right__text"><span>УСТАВ СИРИН</span></div>
+                <div class="rules__img"><img src="img/book.svg" /></div>
+                <a class="rules__link" href="./other/rules.pdf" target="_blank">ОЗНАКОМИТЬСЯ</a>
+            </div>
+        </div>
+    </div>
+    <div class="registration__container">
+        <div class="registration__left__container">
+            <div class="registration__left__text__style">
+                <span>Запишитесь на <span class="light">курсы</span> и реализуйте свой <span class="light">творческий</span> потенциал<span class="light">!</span></span>
+                <div class="registration__button__style">
+                    <a class="registration__button"  href="#">ЗАПИСАТЬСЯ</a>
+                </div>
+            </div>
+        </div>
+        <img class="registration__img" src="img/courses/dio.png">
+        <div class="registration__right__container">
+        </div>
+    </div>
+    <div id="contacts" class="contacts__container">
+        <img class="contacts__img" src="img/courses/lisalisa.png">
+        <div class="contacts__left__container"></div>
+        <div class="contacts__content__style">
+            <div class="contacts__title"><span>Свяжитесь с нами</span></div>
+            <div class="contacts__text">
+                <span class="contacts__text__style__title">ЭЛЛЕКТРОННЫЙ АДРЕС</span>
+                <span class="contacts__text__style">ef.sirin@mail.ru</span>
+            </div>
+            <div class="contacts__text">
+                <span class="contacts__text__style__title">МЫ НАХОДИМСЯ</span>
+                <span class="contacts__text__style">ул. Земляной Вал, д.27, стр.3, метро Курская</span>
+                <span class="contacts__text__style">ул. Чечулина д.10, ГБУ ЦКС «Южное Измайлово»</span>
+            </div>
+            <div class="contacts__text">
+                <span class="contacts__text__style__title">ТЕЛЕФОННЫЙ НОМЕР</span>
+                <span class="tel">8(967) 042-21-04</span>
+                <span class="tel">8(917) 595-12-88</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="footer__container footer__sirin">
+            <div class="copyright">
+                <span>© All rights reserved </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./scripts/handleMenu.js"></script>
+<script src="./scripts/scroll.js"></script>
+<script src="./scripts/entry.js"></script>
+<script src="./scripts/cardRotate.js"></script>
+</html>

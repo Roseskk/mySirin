@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+.achievements__container {
+    margin-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.achievements__title {
+    font-family: MonBold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.achievements__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    list-style-type: none;
+}
+
+.achievements__item {
+    margin-left: 150px;
+    margin-top: 64px;
+    max-width: 352px;
+}
+.achievements__item:first-child {
+    margin-left: 0;
+    margin-top: 64px;
+    max-width: 352px;
+}
+.achievements__item:nth-child(4) {
+    margin-left: 0;
+    margin-top: 64px;
+    max-width: 352px;
+}
+
+.achievements__img__wrapper {
+
+}
+
+.achievements__img {
+
+
+}
+.achievements__content__wrapper {
+    text-align: center;
+
+}
+
+.achievements__text {
+    font-family: MonMed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
